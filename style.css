@@ -1,0 +1,51 @@
+.wrapper .container .form{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: initial;
+    color: #000;
+}
+
+.wrapper .container .wrapper_form{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    column-gap: 10px;
+    row-gap: 5px;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.wrapper .container .form .label_form{
+    grid-column: span 3;
+}
+
+.wrapper .container .form input{
+    grid-column: span 10;
+    margin-top: 2px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+.wrapper .container .form .select_combo{
+    grid-column: span 8;
+    margin-left: 99px;
+    width: 108%;
+}
+
+.wrapper .container .form .input_radio{
+    grid-column: span 2;
+}
+
+.wrapper .container .form .textarea_memo{
+    grid-column: span 13;
+    width: 99%;
+    height: 100px;
+    margin-left: 1px;
+}
+
+.wrapper .container .form .button_submit{
+    grid-column: span 4;
+}
